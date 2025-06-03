@@ -1,0 +1,108 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9f3758f8f58fdef43803eb9be1df0608, type: 3}
+  m_Name: PhotonServerSettings
+  m_EditorClassIdentifier: 
+  AppSettings:
+    AppIdRealtime: d6e2cc02-9e39-4a5c-aa55-837c10d8a5c4
+    AppIdFusion: 
+    AppIdChat: 
+    AppIdVoice: 
+    AppVersion: 
+    UseNameServer: 1
+    FixedRegion: 
+    Server: 
+    Port: 0
+    ProxyServer: 
+    Protocol: 0
+    EnableProtocolFallback: 1
+    AuthMode: 0
+    EnableLobbyStatistics: 0
+    NetworkLogging: 1
+  DevRegion: asia
+  PunLogging: 0
+  EnableSupportLogger: 0
+  RunInBackground: 1
+  StartInOfflineMode: 0
+  RpcList:
+  - ClickRpc
+  - DestroyRpc
+  - DestroySpaceship
+  - Fire
+  - GetIsSeatedOverNetwork
+  - RequestIsSeatedOverNetwork
+  - RespawnSpaceship
+  - SetIsSeatedOverNetwork
+  - SyncIsOccupied
+  - SetPlayerOverNetwork
+  - SyncPlayer
+  - GetPlayerOverNetwork
+  - GetPlayerNameOverNetwork
+  - SetPlayerNameOverNetwork
+  - SyncPlayerName
+  - GiveCardsCoroutine
+  - InitializeDeck
+  - RPC_GiveCards
+  - RPC_ShuffleDeck
+  - ShuffleDeck
+  - GiveCards
+  - SetParent
+  - SetPlayerState
+  - DetermineWinnerAndStartNewGame
+  - FoldPlayer
+  - EndPlayerTurn
+  - StartPlayerTurn
+  - RPC_InitializeGame
+  - StartNewGame
+  - RPC_ActivatePlayerTimer
+  - RPC_UpdateBalance
+  - RPC_UpdatePot
+  - RPC_TogglePlayerTimer
+  - InstantiatePlayerInfoOverNetwork
+  - AddPlayerInfoOverNetwork
+  - SetupPlayerInfo
+  - SetParentOverNetwork
+  - RPC_UpdatePotAndBalance
+  - RPC_PlayerAction
+  - CheckAndStartGame
+  - ShowWinnerRPC
+  - RPC_ShowWinner
+  - RPC_UpdateCanvas
+  - RPC_SetApiURL
+  - PlaceBetRequest
+  - SetApiURL
+  - WinGameRequest
+  - RPC_ActivateCanvas
+  - RPC_ToggleCanvas
+  - RPC_PlayerActionPopup
+  - RPC_UsernameText
+  - GetCurrentStakeAmount
+  - UpdateStakeAmount
+  - RPC_UpdateStakeAmount
+  - RPC_ShowSideshowRequest
+  - RPC_SideshowResult
+  - RPC_RequestSideshow
+  - RPC_DisplaySideshowRequest
+  - RPC_AcceptSideshow
+  - RPC_DeclineSideshow
+  - RPC_TogglePlayerCanvas
+  - RPC_ToggleSideShowUI
+  - InitializeGame
+  - StartNewRound
+  - RPC_AddActivePlayer
+  - RPC_NextRound
+  - AddActivePlayers
+  - SyncActivePlayers
+  - DisconnectEverybody
+  DisableAutoOpenWizard: 1
+  ShowSettings: 1
+  DevRegionSetOnce: 1

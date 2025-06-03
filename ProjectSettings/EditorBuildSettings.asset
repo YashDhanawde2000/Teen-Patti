@@ -1,0 +1,33 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1045 &1
+EditorBuildSettings:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Scenes:
+  - enabled: 1
+    path: Assets/_Scenes/MainMenu.unity
+    guid: 07009845d8a5c3f4bbd0486864273a07
+  - enabled: 1
+    path: Assets/_Scenes/Lobby.unity
+    guid: dba540dd3e0158545a5852a7e57b3c49
+  - enabled: 1
+    path: Assets/_Scenes/Teenpatti_MP.unity
+    guid: e9b41619ab6c8f74bb3c8031a2f466bb
+  - enabled: 1
+    path: Assets/_Scenes/Teenpatti_AI.unity
+    guid: 60afa865cb145094b83185fc13abba1b
+  - enabled: 1
+    path: Assets/_Scenes/Teenpatti_Demo.unity
+    guid: d311dac72d029b14190531637369c6ef
+  m_configObjects:
+    com.unity.adaptiveperformance.google.android.provider_settings: {fileID: 11400000,
+      guid: 3f2659c216cf17c44b8fc398001e7bea, type: 2}
+    com.unity.adaptiveperformance.loader_settings: {fileID: 11400000, guid: dc27422aaa24e5545a03069c455b3fab,
+      type: 2}
+    com.unity.adaptiveperformance.samsung.android.provider_settings: {fileID: 11400000,
+      guid: e88f6256c13299248928dbb040a3c241, type: 2}
+    com.unity.adaptiveperformance.simulator.provider_settings: {fileID: 11400000,
+      guid: 28b68b7a593c10847bf56bc9c60f6b2e, type: 2}
+    com.unity.input.settings: {fileID: 11400000, guid: 77fec701003dffc4c8631a57527cc05a,
+      type: 2}
